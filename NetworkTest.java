@@ -41,7 +41,7 @@ public class NetworkTest {
         System.out.println(net);
 
         System.out.println("\n...Suggesting to Alex which user to follow...");
-        System.out.println("Alex: based on our social network analysis, we recommemd to follow " + net.recommendWhoToFollow("Alex"));
+        System.out.println("Alex: based on our social network analysis, we recommend to follow " + net.recommendWhoToFollow("Alex"));
         
         System.out.println("\n...Finding the most popular user...");
         System.out.println("The most popular user is: " + net.mostPopularUser());
